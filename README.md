@@ -5,14 +5,13 @@
  </p>
 
 ## Project Background
-The school board recognized that there was evidence of academic dishonesty; specifically reading and math grades of grade nine students at Thomas High School being altered. While administrators do not know the full extent of the alteration, they want to upholding state-testing standards but have tapped me on how to move forward. 
+The school board recognized that there was evidence of academic dishonesty; specifically with the altering of reading and math grades of grade nine students at Thomas High School. While administrators do not know the full extent of the changes, they want to uphold their testing standards by keeping the unaltered grades while looking at methods to eliminate the altered grades with losing the data's overall integrity. Once finished my assessment, I am to report my results and describe if there were any changes to my overall analysis.
 
 ## Overview
 After assessing the situation, I decided the best approach is to:
-- Replace the ninth-grade math and reading scores from Thomas High School.
+- Replace the ninth-grade math and reading scores from Thomas High School with NaNs
 - Keep all other data associated with the ninth-grade students and Thomas High School intact.
 
-She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
 
 ## Results
 Using bulleted lists and images of DataFrames as support, address the following questions.
