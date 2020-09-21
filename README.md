@@ -1,4 +1,6 @@
-# School_District_Analysis
+<h1 align = "center">
+School_District_Analysis
+</h1>
 
 <p align = "center">
 <img src = "https://www.futurity.org/wp/wp-content/uploads/2017/12/classroom-desks-blackboard_1600.jpg" width = "500" height = "200">
@@ -9,42 +11,69 @@ The school board recognized that there was evidence of academic dishonesty; spec
 
 ## Overview
 After assessing the situation, I decided the best approach is to:
-- Replace the ninth-grade math and reading scores from Thomas High School with NaNs
-- Keep all other data associated with the ninth-grade students and Thomas High School intact.
-
+- Replace the ninth-grade math and reading scores from Thomas High School with NaNs.
+- Keep all other data outside of the ninth-grade Thomas High school students intact.
+- Reassess the new data set and it's revised results
 
 ## Results
-Using bulleted lists and images of DataFrames as support, address the following questions.
+From my assessment, we can see that some of the percentages are different; albeit small, but based upon the scale, it's rather significant. Moreso, when we see the reading average percentage, we see that it actually goes up by about 4%.
 
-How is the district summary affected? 
-How is the school summary affected? 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/pre%20district%20summary.png" width = "1200" height = "120">
+ </p>
+ 
+ ### Pre-district summary 
+ <br/>
+ - Passing Math Percentage is 75% <br/>
+ - Passing Reading Percentage is 85.8% <br/>
+ - Passing Overall Percentage is 65.2% <br/>
+
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/post%20district%20summary.png" width = "1300" height = "120">
+ </p>
+ 
+ ### Post-district summary 
+ <br/>
+ - Passing Math Percentage is 74.8% <br/>
+ - Passing Reading Percentage is 85.7% <br/>
+ - Passing Overall Percentage is 64.9% <br/>
+
+
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/pre%20read%20math%20averages.png" width = "1300" height = "170">
+ </p>
+ 
+ ### Pre subject summary 
+ <br/>
+ - Average math score is approximately 78.98% <br/>
+ - Average reading score is approximately 81.88% <br/>
+
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/post%20read%20math%20averages.png" width = "1200" height = "150">
+ </p>
+ 
+ ###  Post subject summary 
+ <br/>
+ - Average math score is approximately 74.76% <br/>
+ - Average reading score is approximately 85.66% <br/>
+ 
+ <p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/Overall%20Pre.png" width = "1350" height = "150">
+ </p>
+ 
+ ### Pre overall summary 
+ <br/>
+ - Overall passing is approximately 65.17% <br/>
+ 
+  <p align = "center">
+<img src = "https://github.com/JoseCalucag/School_District_Analysis/blob/master/Resources/overall%20post.png" width = "1200" height = "170">
+ </p>
+ 
+ ### Post overall summary 
+ <br/>
+  - Overall passing is approximately 64.86% <br/>
+ 
 
 ## Summary
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+By isolating and declaring unwanted data (like possible altered and falsified data), we can eliminate them and still create an accurate data set without having to re-test or revalue our data standards. 
 
-
-Structure, Organization, and Formatting (7 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections (2 pt).
-Each section has a heading and subheading (3 pt).
-Links to images are working, and code is formatted and displayed correctly (2 pt)
-
-Analysis (18 points)
-The written analysis has the following:
-
-Overview of the school district analysis:
-
-The purpose of this analysis is well defined (3 pt).
-Results:
-
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-Summary:
-
-There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced (5 pt)
